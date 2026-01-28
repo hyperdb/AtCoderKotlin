@@ -1,0 +1,134 @@
+{
+    "def main": {
+        "prefix": ":main",
+        "body": [
+            "/*",
+            " *",
+            " */",
+            "",
+            "/*",
+            " *",
+            " */",
+            "fun main() {",
+            "",
+            "}",
+        ],
+    },
+    "def getString": {
+        "prefix": ":gs",
+        "body": [
+            "fun getString(): String {",
+            "    return readLine()!!",
+            "}",
+            "",
+        ],
+    },
+    "def getInt": {
+        "prefix": ":gi",
+        "body": [
+            "fun getInt(): Int {",
+            "    return readLine()!!.toInt()",
+            "}",
+            "",
+        ],
+    },
+    "def getFloat": {
+        "prefix": ":gf",
+        "body": [
+            "fun getFloat(): Float {",
+            "    return readLine()!!.toFloat()",
+            "}",
+            "",
+        ],
+    },
+    "def getStringList": {
+        "prefix": ":gsl",
+        "body": [
+            "fun getStringList(): List<String> {",
+            "    return readLine()!!.split(\" \")",
+            "}",
+            "",
+            "",
+        ],
+    },
+    "def getIntList": {
+        "prefix": ":gil",
+        "body": [
+            "fun getIntList(): List<Int> {",
+            "    return readLine()!!.split(\" \").map{it.toInt()}",
+            "}",
+            "",
+            "",
+        ],
+    },
+    "def getFloatList": {
+        "prefix": ":gfl",
+        "body": [
+            "fun getIntList(): List<Float> {",
+            "    return readLine()!!.split(\" \").map{it.toFloat()}",
+            "}",
+            "",
+            "",
+        ],
+    },
+    "def getStringRow": {
+        "prefix": ":gsr",
+        "body": [
+            "fun getStringRow(N: Int): List<String> {",
+            "    return List(N) { readLine()!! }",
+            "}",
+            "",
+            "",
+        ],
+    },
+    "def getIntRow": {
+        "prefix": ":gir",
+        "body": [
+            "fun getIntRow(N: Int): List<Int> {",
+            "    return List(N) { readLine()!!.toInt() }",
+            "}",
+            "",
+            "",
+        ],
+    },
+    "def getFloatRow": {
+        "prefix": ":gfr",
+        "body": [
+            "fun getFloatRow(N: Int): List<Float> {",
+            "    return List(N) { readLine()!!.toFloat() }",
+            "}",
+            "",
+            "",
+        ],
+    },
+    "def getStringListRow": {
+        "prefix": ":gslr",
+        "body": [
+            "fun getStringListRow(N: Int): List<List<String>> {",
+            "    return List(N) { readLine()!!.split(\" \") }",
+            "}",
+            "",
+            "",
+        ],
+    },
+    "def getIntListRow": {
+        "prefix": ":gilr",
+        "body": [
+            "fun getIntListRow(N: Int): List<List<Int>> {",
+            "    return List(N) { readLine()!!.split(\" \").map{it.toInt() }",
+            "}",
+            "",
+            "",
+        ],
+    },
+    "def getFloatListRow": {
+        "prefix": ":gflr",
+        "body": [
+            "fun getFloatListRow(N: Int): List<List<Float>> {",
+            "    return List(N) { readLine()!!.split(\" \").map{it.toFloat() }",
+            "}",
+            "",
+            "",
+        ],
+    },
+}
