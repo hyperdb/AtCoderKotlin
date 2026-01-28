@@ -1,0 +1,6 @@
+#
+# ------------------------------
+.vscode/settings.json
+META-INF/
+in.txt
+*.class
