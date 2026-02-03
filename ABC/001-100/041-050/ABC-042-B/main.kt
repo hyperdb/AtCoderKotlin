@@ -1,5 +1,6 @@
 /*
- *
+ * ABC-042 B - 文字列大好きいろはちゃんイージー
+ * https://atcoder.jp/contests/abc042/tasks/abc042_b
  */
 fun getIntList(): List<Int> {
     return readLine()!!.split(" ").map{it.toInt()}

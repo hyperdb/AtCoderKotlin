@@ -1,5 +1,6 @@
 /*
- *
+ * ABC-042 C - こだわり者いろはちゃん
+ * https://atcoder.jp/contests/abc042/tasks/arc058_a
  */
 fun getIntList(): List<Int> {
     return readLine()!!.split(" ").map{it.toInt()}
