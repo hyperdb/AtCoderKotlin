@@ -10,6 +10,6 @@ fun getInt(): Int {
  */
 fun main() {
     val N = getInt()
-
+    // 等差数列の和の公式を利用
     println(N * (N + 1) / 2)
 }

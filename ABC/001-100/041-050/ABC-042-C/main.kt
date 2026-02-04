@@ -12,10 +12,11 @@ fun getIntList(): List<Int> {
 fun main() {
     val (N, K) = getIntList()
     val D = getIntList()
-
+    // Nから順に調べる
     for (n in N..100000) {
         var check = true
         val digits = n.toString().toList()
+        // 1文字ずつ嫌いな数字リストに含まれるか確認
         digits.map{it.toString().toInt()}.let {
             for (d in it) {
                 if (d in D) {

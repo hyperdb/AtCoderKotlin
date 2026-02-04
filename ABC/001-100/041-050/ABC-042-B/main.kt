@@ -15,6 +15,6 @@ fun getStringRow(N: Int): List<String> {
 fun main() {
     val (N, L) = getIntList()
     val S = getStringRow(N)
-
+    // ソートして結合
     println(S.sorted().joinToString(""))
 }

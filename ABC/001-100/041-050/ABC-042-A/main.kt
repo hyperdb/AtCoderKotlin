@@ -11,6 +11,6 @@ fun getIntList(): List<Int> {
  */
 fun main() {
     val abc = getIntList().sorted()
-
+    // ソートして判定
     println(if (abc == listOf(5, 5, 7)) "YES" else "NO")
 }

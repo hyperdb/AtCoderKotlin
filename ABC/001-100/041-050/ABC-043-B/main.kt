@@ -15,9 +15,11 @@ fun main() {
     S.toList().let {
         val result = StringBuilder()
         for (c in it) {
+            // 文字に応じて処理を分岐
             when (c) {
                 '0' -> result.append('0')
                 '1' -> result.append('1')
+                // 空の時は処理しない
                 'B' -> if (result.isNotEmpty()) result.deleteCharAt(result.length - 1)
             }
         }
