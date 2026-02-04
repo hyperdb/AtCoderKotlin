@@ -3,11 +3,15 @@
  * https://atcoder.jp/contests/abc042/tasks/abc042_b
  */
 fun getIntList(): List<Int> {
-    return readLine()!!.split(" ").map{it.toInt()}
+    return readLine()!!.split(" ").map {
+        it.toInt()
+    }
 }
 
 fun getStringRow(N: Int): List<String> {
-    return List(N) { readLine()!! }
+    return List(N) {
+        readLine()!!
+    }
 }
 /*
  *

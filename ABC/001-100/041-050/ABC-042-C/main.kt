@@ -3,7 +3,9 @@
  * https://atcoder.jp/contests/abc042/tasks/arc058_a
  */
 fun getIntList(): List<Int> {
-    return readLine()!!.split(" ").map{it.toInt()}
+    return readLine()!!.split(" ").map {
+        it.toInt()
+    }
 }
 
 /*

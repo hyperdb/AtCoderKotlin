@@ -7,7 +7,9 @@ fun getInt(): Int {
 }
 
 fun getIntList(): List<Int> {
-    return readLine()!!.split(" ").map{it.toInt()}
+    return readLine()!!.split(" ").map {
+        it.toInt()
+    }
 }
 // 指定値に合わせるコストを計算
 fun getCost(data: List<Int>, average: Int) : Int {
